@@ -25,13 +25,9 @@
             var link = document.createElement( 'link' );
             link.rel = 'stylesheet';
             link.type = 'text/css';
-            link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal_js/css/print/pdf.css' : 'reveal_js/css/print/paper.css';
+            link.href = window.location.search.match( print-pdf/gi ) ? 'reveal_js/css/print/pdf.css' : 'reveal_js/css/print/paper.css';
             document.getElementsByTagName( 'head' )[0].appendChild( link );
         </script>
-
-        <!--[if lt IE 9]>
-        <script src="reveal_js/lib/js/html5shiv.js"></script>
-        <![endif]-->
     </head>
 
     <body>
@@ -49,7 +45,6 @@
                 </section>
 
                 <section>
-                    <!--<section data-background="http://staciwallace.com/wp-content/uploads/2014/12/honor.jpg">-->
                     <section>
                         <h2>Honor</h2>
                         <aside class="notes">
