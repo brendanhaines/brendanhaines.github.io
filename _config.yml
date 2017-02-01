@@ -16,10 +16,10 @@
 title: Brendan Haines
 email: brendan.haines@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Brendan is an awesome dood.
+  "Any sufficiently advanced technology is indistinguishable from magic." -Arthur C Clarke
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://brendanhaines.com/blog/" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
+url: /
+#url: "http://brendanhaines.com/blog/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  brendanhaines
 
 
