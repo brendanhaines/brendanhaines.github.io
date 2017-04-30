@@ -16,7 +16,7 @@
 title: Brendan Haines
 email: brendan.haines@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  "Any sufficiently advanced technology is indistinguishable from magic." -Arthur C Clarke
+     Imagining, exploring, and creating our world one little mystery at a time.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: /
 #url: "http://brendanhaines.com/blog/" # the base hostname & protocol for your site, e.g. http://example.com
