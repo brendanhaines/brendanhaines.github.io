@@ -46,7 +46,7 @@ Also note that this module does not contain the selection of which reaction time
 
 # Random Number Generator
 
-To generate pseudo-random numbers, I'm using a Fibonacci linear feedback shift register (LFSR). For this to generate pseudo-random numbers, specific numbers of bits must be used as the length of the number.
+To generate pseudo-random numbers, I'm using a Fibonacci linear feedback shift register (LFSR). For this to generate pseudo-random numbers, specific numbers of bits must be used as the length of the number. For this test, I used a 7 bit LFSR.
 
 ![Linear feedback shift register][LFSR-topology]
 
@@ -58,9 +58,11 @@ This simply sets a single bit to 1 if all are zero.
 
 ![LFSR block diagram][LFSR-block-diagram]
 
-To ensure that the LFSR was functioning as expected (make sure I hadn't screwed up), I sampled the value at approximately 5000 clock cycle intervals which are shown as a histogram below.
+To ensure that the LFSR was functioning as expected (make sure I hadn't screwed up), I sampled the value 30 times at approximately 1000-5000 clock cycle intervals.
 
 ![LFSR output values][LFSR-histogram]
+
+Unfortunately, 30 samples doesn't allow for significant trends to develop in terms of frequency of occurance of various numbers. What this sample does show is that the LFSR is providing values throughout its full output range and, when I slowed down the clock to 1Hz, confirmed that it is operating exactly as it should.
 
 # Demonstration
 
