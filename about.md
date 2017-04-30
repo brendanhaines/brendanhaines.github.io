@@ -8,7 +8,7 @@ permalink: /about/
 
 ### Hi, I'm Brendan
 
-I guess you could say I'm a magician.
+I guess you could say I want to be a magician.
 As Arthur C. Clarke said:
 
 >"Any sufficiently advanced technology is indistinguishable from magic"
