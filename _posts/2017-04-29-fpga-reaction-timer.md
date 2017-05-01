@@ -20,6 +20,8 @@ The random number generator is used in conjunction with a counter to create a de
 At the expiration of this delay, the counter then measures the time required for the user to react and press a button.
 Finally, either the most recently measured reaction time or the fastest reaction time (as determined by a toggle switch) is shown on seven-segment displays.
 
+I'm not sure what happened, but the RTL Viewer in Quartus Prime always shows an old version of the netlist. As a result, I don't have a good way to make clean and accurate block diagrams without excessive effort. I will update this with a complete block diagram once I get the RTL Viewer working again.
+
 ![Reaction timer block diagram][block-diagram]
 
 # State Machine Design
@@ -63,6 +65,11 @@ To ensure that the LFSR was functioning as expected (make sure I hadn't screwed 
 ![LFSR output values][LFSR-histogram]
 
 Unfortunately, 30 samples doesn't allow for significant trends to develop in terms of frequency of occurance of various numbers. What this sample does show is that the LFSR is providing values throughout its full output range and, when I slowed down the clock to 1Hz, confirmed that it is operating exactly as it should.
+
+# Extra Features
+
+Though functionally useless, I also added a scrolling message on the seven-segment display when the device turns on. In honor of CU, this message is `go buffs`.
+I made this scroll across the available digits through the use of a 2Hz clock which causes the message to shift left by 8 bits (7 segments + decimal point).
 
 # Demonstration
 
