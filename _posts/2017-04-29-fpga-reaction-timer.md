@@ -22,7 +22,7 @@ Finally, either the most recently measured reaction time or the fastest reaction
 
 I'm not sure what happened, but the RTL Viewer in Quartus Prime always shows an old version of the netlist. As a result, I don't have a good way to make clean and accurate block diagrams without excessive effort. I will update this with a complete block diagram once I get the RTL Viewer working again.
 
-![Reaction timer block diagram][block-diagram]
+![Reaction timer block diagram][top-block-diagram]
 
 # State Machine Design
 
@@ -96,7 +96,7 @@ Due to this project being part of a course, I cannot publish the complete source
 Information about the FPGA development board I used can be found on the manufacture's website (<http://de10-lite.terasic.com>)
 
 [de10-lite]: {{base-url}}/assets/fpga-reaction-timer/de10-lite.jpg
-[block-diagram]: {{base-url}}/assets/fpga-reaction-timer/block-diagram.png
+[top-block-diagram]: {{base-url}}/assets/fpga-reaction-timer/top-block-diagram.png
 [state-machine-block-diagram]:{{base-url}}/assets/fpga-reaction-timer/state-machine-block-diagram.png
 [LFSR-topology]: {{base-url}}/assets/fpga-reaction-timer/lfsr-topology.png
 [LFSR-block-diagram]: {{base-url}}/assets/fpga-reaction-timer/lfsr-block-diagram.png

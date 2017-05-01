@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Hohm Phone: Cell Phone for the Elderly"
-date: 2017-01-30 19:00:00 -0700
+date: 2017-05-01 00:00:00 -0600
 categories: Projects
 permalink: /:categories/:title/
 ---
 
 # Intro
-For my freshman projects class, we were prompted with using some aspect of touch tone phones in a new way. Ultimately, my group decided on making a cell phone targeted at the elderly population, some of whom struggle to use miniaturized cell phones or much more complicated smartphones.
+For my freshman projects class in the Fall of 2016, we were prompted with using some aspect of touch tone phones in a new way. Ultimately, my group decided on making a cell phone targeted at the elderly population, some of whom struggle to use miniaturized cell phones or much more complicated smartphones.
 
 **The primary goal of our project was to create a working cell phone with as similar an interface to old landlines as possible to simplify use.**
 
@@ -34,7 +34,7 @@ Unfortunately, due to the time crunch before the design expo, we abandoned charg
 ![Phone Internals][internals] | ![Initial Assembly][front-taped]
 
 # Final Product
-The finished phone is fully capable of placing and receiving calls within the country and maintains the same interface as old touch tone phones with the addition of an answer button (green) and moving the end button (on hook) from a base station to the handset (red).
+The finished phone is fully capable of placing and receiving calls within the country and maintains the same interface as old touch tone phones with the addition of an answer button (green) and moving the end-call button from a base station to the handset (red).
 
 ![Final Phone][final-phone] | ![Final Phone][final-phone-separate]
 
@@ -42,9 +42,9 @@ The finished phone is fully capable of placing and receiving calls within the co
 
 
 # Further Development
-Throughout the design process, I came across a few additional feature that I would like to incorporate into the Hohm Phone (if there ever is a version 2). The most important feature is definitely functional charging since that didn't work and is very essential to being functional at all in the real world.
+Throughout the design process, I came across a few additional features that I would like to incorporate into the Hohm Phone (if there ever is a version 2). The most important feature is definitely to fix charging since that didn't work and is very essential to being functional at all in the real world. Additionally, improving audio volume would be important.
 
-Second on the list is adding a voice changer to lower the pitch of incoming voices. I remember whenever my family would call my great grandmother, she would have no trouble hearing anything my dad said but struggled immensely with understanding anyone else because our voices were higher higher pitch. During this project, I came across a couple phone voice-changer projects which reminded me of these experiences and would be a great addition to a phone specifically made for the elderly.
+Next on the list is adding a voice changer to lower the pitch of incoming voices. I remember whenever my family would call my great grandmother, she would have no trouble hearing anything my dad said but struggled to understand anyone else because our voices were higher pitched. During this project, I came across a couple voice-changer projects which reminded me of these experiences and would be a great internal addition to a phone specifically made for the elderly.
 
 # Resources
 * Git Repository ([GitHub][github-repo])
@@ -53,7 +53,7 @@ Second on the list is adding a voice changer to lower the pitch of incoming voic
 [pcb-bottom]:{{site.baseurl}}/assets/hohm-phone/IMG_board_bottom.png
 [populated-pcb]: {{site.baseurl}}/assets/hohm-phone/IMG_populated_pcb_cropped.jpg
 [front-taped]: {{site.baseurl}}/assets/hohm-phone/IMG_front.jpg
-[internals]: {{site.baseurl}}/assets/hohm-phone/IMG_guts_assembled.jpg
+[internals]: {{site.baseurl}}/assets/hohm-phone/IMG_guts_assembled_small.jpg
 [charging]: {{site.baseurl}}/assets/hohm-phone/IMG_charging.jpg
 
 [final-phone]: {{site.baseurl}}/assets/hohm-phone/IMG_final.jpg
