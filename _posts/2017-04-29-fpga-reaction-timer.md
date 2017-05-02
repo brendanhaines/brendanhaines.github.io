@@ -75,10 +75,7 @@ I made this scroll across the available digits through the use of a 2Hz clock wh
 
 Here is a video of the timer in action.
 
-<video width="512" height="288" controls>
-  <source src="{{base-url}}/assets/fpga-reaction-timer/demo.webm" type="video/webm">
-Your browser does not support the video tag.
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mfbvz1SpOVE" frameborder="0" allowfullscreen></iframe>
 
 # Further Development
 
