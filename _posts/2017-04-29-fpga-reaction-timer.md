@@ -22,6 +22,8 @@ Finally, either the most recently measured reaction time or the fastest reaction
 
 ![Reaction timer block diagram][top-block-diagram]
 
+This diagram is somewhat hard to read given multiple functions all being performed in the same space. This is a simplified diagram depicting only the components used to create a random duration delay.
+
 ![Delay element block diagram][delay-block-diagram]
 
 # State Machine Design
