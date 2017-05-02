@@ -22,6 +22,8 @@ Finally, either the most recently measured reaction time or the fastest reaction
 
 ![Reaction timer block diagram][top-block-diagram]
 
+![Delay element block diagram][delay-block-diagram]
+
 # State Machine Design
 
 I decided to use a zero one hot encoding of state for multiple reasons.
@@ -92,6 +94,7 @@ Information about the FPGA development board I used can be found on the manufact
 
 [de10-lite]: {{base-url}}/assets/fpga-reaction-timer/de10-lite.jpg
 [top-block-diagram]: {{base-url}}/assets/fpga-reaction-timer/top-block-diagram.png
+[delay-block-diagram]: {{base-url}}/assets/fpga-reaction-timer/delay-block-diagram.png
 [state-machine-block-diagram]:{{base-url}}/assets/fpga-reaction-timer/state-machine-block-diagram.png
 [LFSR-topology]: {{base-url}}/assets/fpga-reaction-timer/lfsr-topology.png
 [LFSR-block-diagram]: {{base-url}}/assets/fpga-reaction-timer/lfsr-block-diagram.png
