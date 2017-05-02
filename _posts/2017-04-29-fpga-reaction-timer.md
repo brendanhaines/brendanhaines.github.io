@@ -20,8 +20,6 @@ The random number generator is used in conjunction with a counter to create a de
 At the expiration of this delay, the counter then measures the time required for the user to react and press a button.
 Finally, either the most recently measured reaction time or the fastest reaction time (as determined by a toggle switch) is shown on seven-segment displays.
 
-I'm not sure what happened, but the RTL Viewer in Quartus Prime always shows an old version of the netlist. As a result, I don't have a good way to make clean and accurate block diagrams without excessive effort. I will update this with a complete block diagram once I get the RTL Viewer working again.
-
 ![Reaction timer block diagram][top-block-diagram]
 
 # State Machine Design
