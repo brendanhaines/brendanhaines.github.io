@@ -15,7 +15,7 @@ As Arthur C. Clarke said:
 
 One of the greatest joys in my life is taking what once was magic to me and gaining an understanding solid enough to create my own magic.
 For as long as I can remember, I've been so interested in how everything around me works.
-Throughout my life, I've pursued my desire to truly understandy *why* both within the established education system as well as individually pursuing my interests.
+Throughout my life, I've pursued my desire to truly understandy *why* both within the established education system as well as independently pursuing my interests.
 Through high school, I dabbled in woodworking, computer science, electrical engineering, robotics, and much more.
 I'm currently pursuing a BS in Electrical and Computer Engineering at CU Boulder.
 
@@ -28,7 +28,7 @@ Feel free to contact me for any reason from having a project I might be interest
 
 The best way to contact me is via email at <brendan.haines@gmail.com> or <brendan.haines@colorado.edu>.
 
-You can also see some of my work at [GitHub](http://github.com/brendanhaines).
+You can also see some of my older work at [GitHub](http://github.com/brendanhaines).
 
 
 [profile-image]: {{base-url}}/assets/img/brendanhaines_profile.jpg
