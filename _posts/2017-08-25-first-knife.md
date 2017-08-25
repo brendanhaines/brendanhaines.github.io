@@ -1,12 +1,10 @@
 ---
 layout: post
 title: "Making My First Knife"
-date: 2017-08-16 12:00:00 -0700
+date: 2017-08-25 14:00:00 -0600
 categories: Projects
 permalink: /:categories/:title/
 ---
-
-# Intro
 
 I've been wanting to make my own knives for a while now and decided it was time to just do it.
 Here's what the finished product looks like.
@@ -23,13 +21,15 @@ I generally don't like the look of knives that have a shorter blade than handle,
 
 # The Blade
 
+Since I didn't go into this with knifemaking experience, I wanted to work with a relatively forgiving steel. From a little research I found that 1075, 1095, and O1 steels are all pretty good for beginners and are oil quenchable. I settled on 1095 because I wanted better edge retention (over 1075) and didn't know much about O1.
+
 Almost the entire blade was shaped with a 1x30" belt sander. Mine is from Harbor Freight. It's not perfect but the price is right (especially with coupons!!).
 
 ![Marked steel]({{base-url}}/assets/first-knife/marked-steel.jpg) | ![Rough blade]({{base-url}}/assets/first-knife/rough-blade.jpg)
 
 ![Profiled blade]({{base-url}}/assets/first-knife/profiled-2.jpg)
 
-To grind the bevels into the sides of the blade, I didn't use any kind of jig, I just estimated a reasonable angle and removed metal to a center line I scribed onto the edge.
+To grind the bevels into the sides of the blade, I didn't use a jig but just estimated a reasonable angle and removed metal to a center line I scribed onto the edge. I definitely could have achieved flatter bevels with a jig so in the future I will likely be using one.
 
 ![Bevels ground into blade]({{base-url}}/assets/first-knife/done-grinding-left.jpg) | ![Bevels ground into blade]({{base-url}}/assets/first-knife/done-grinding-right.jpg)
 
@@ -51,6 +51,12 @@ I settled on cocobolo for the handle. The process of shaping the handle scales i
 
 ![Roughed out wood]({{base-url}}/assets/first-knife/rough-wood.jpg) | ![Contoured wood]({{base-url}}/assets/first-knife/smooth-wood.jpg)
 
+I then glued the wood scales onto the sides of the steel with epoxy. They were held in place with the dowel pins and clamps. For future knives, I will definitely use more clamps and ensure better flattness of the scales since there is a small void between the wood and steel in one spot.
+
+![Gluing scales]({{base-url}}/assets/first-knife/gluing-2.jpg)
+
+Once everything was glued, I could have hammered a mushroom head on the ends of the pins but I decided not to. I was concerned about accidently damaging the wood finish and since this knife won't be getting very heavy use I'm not so concerned about it falling apart. I simply sanded off the excess of the pins and let the epoxy work its magic. 
+
 # Finishing
 
 The steel was simply finished by hand with sand paper on a flat surface. I was initially planning to take the finish up to around 1000-2000 grit but since there were already imperfections like a minor warp of the steel from heat treating as well as not perfectly flat surfaces of the bevel, I decided to stop at 400 grit. I'm still happy with this decision since it saved me a lot of time and I like that it looks more like a brushed finish.
@@ -70,6 +76,7 @@ I'm really happy with how this turned out. The knife feels good in my hand despi
 
 # Resources
 
+- Jantz Supply for [1095 steel & cocobolo block](http://www.knifemaking.com)
 - Harbor Freight [1x30" belt sander](https://www.harborfreight.com/1-in-x-30-in-belt-sander-60543.html)
 - Diablo [1x30" sandling belts](http://www.homedepot.com/p/Diablo-1-in-x-30-in-Assorted-Belt-Pack-3-Piece-DCB130VGPS03G/202830850)
 - Harbor Freight [propane torch](https://www.harborfreight.com/propane-torch-91033.html)
