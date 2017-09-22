@@ -23,7 +23,7 @@ I generally don't like the look of knives that have a shorter blade than handle,
 
 Since I didn't go into this with knifemaking experience, I wanted to work with a relatively forgiving steel. From a little research I found that 1075, 1095, and O1 steels are all pretty good for beginners and are oil quenchable. I settled on 1095 because I wanted better edge retention (over 1075) and didn't know much about O1.
 
-Almost the entire blade was shaped with a 1x30" belt sander. Mine is from Harbor Freight. It's not perfect but the price is right (especially with coupons!!).
+Almost the entire blade was shaped with a 1x30" belt sander. Mine is from Harbor Freight. It's not perfect but the price is right.
 
 ![Marked steel]({{base-url}}/assets/first-knife/marked-steel.jpg) | ![Rough blade]({{base-url}}/assets/first-knife/rough-blade.jpg)
 
