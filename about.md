@@ -22,6 +22,8 @@ I'm currently pursuing a BS in Electrical and Computer Engineering at CU Boulder
 I am always interested in pushing my knowledge and undertaking projects, especially when they are at the fringes of my understanding.
 Feel free to contact me for any reason from having a project I might be interested in to just wanting to chat.
 
+You're also welcome to take a look at my [resume]({{base-url}}/assets/resume.pdf).
+
 ---
 
 ### Contact
