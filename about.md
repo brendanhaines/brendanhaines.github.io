@@ -16,8 +16,8 @@ As Arthur C. Clarke said:
 One of the greatest joys in my life is taking what once was magic to me and gaining an understanding solid enough to create my own magic.
 For as long as I can remember, I've been so interested in how everything around me works.
 Throughout my life, I've pursued my desire to truly understandy *why* both within the established education system as well as independently pursuing my interests.
-Through high school, I dabbled in woodworking, computer science, electrical engineering, robotics, and much more.
-I'm currently pursuing a BS in Electrical and Computer Engineering at CU Boulder.
+I've dabbled in wood- and metalworking, robotics, and have more formal education in computer science, electrical engineering.
+I'm currently pursuing a BS and MS in Electrical and Computer Engineering at the University of Colorado at Boulder.
 
 I am always interested in pushing my knowledge and undertaking projects, especially when they are at the fringes of my understanding.
 Feel free to contact me for any reason from having a project I might be interested in to just wanting to chat.

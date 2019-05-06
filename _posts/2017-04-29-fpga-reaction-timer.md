@@ -6,7 +6,8 @@ categories: Projects
 permalink: /:categories/:title/
 ---
 
-# Intro
+<!-- ## Intro -->
+
 The purpose of this project was to gain experience with a field programmable gate array (FPGA) and design of digital logic through the creation of a reaction timer.
 This timer must be able to wait a random length of time before measuring how long a person takes to react to an LED turning on.
 The purpose of this delay is to prevent someone from simply pressing a start and stop button in quick succession without ever having to truly react to an event outside of their control.
@@ -15,7 +16,7 @@ The purpose of this delay is to prevent someone from simply pressing a start and
 
 ![DE10-Lite FPGA][de10-lite]
 
-# Overall Design
+## Overall Design
 
 This reaction timer is built around a state machine, a pseudo-random number generator, and a counter.
 The random number generator is used in conjunction with a counter to create a delay of random length.
@@ -28,7 +29,7 @@ This diagram is somewhat hard to read given multiple functions all being perform
 
 ![Delay element block diagram][delay-block-diagram]
 
-# State Machine Design
+## State Machine Design
 
 I decided to use a zero one hot encoding of state for multiple reasons.
 We discussed one hot encoding in class and I liked the simplicity of logic allowing the state machine to function, but I still would have to deal with every bit being a zero when the device is initially powered on.
@@ -50,7 +51,7 @@ Note that both `start_button` and `stop_button` above are inverted inputs.
 This is because the onboard buttons are low active.
 Also note that this module does not contain the selection of which reaction time to display as the result.
 
-# Random Number Generator
+## Random Number Generator
 
 To generate pseudo-random numbers, I'm using a Fibonacci linear feedback shift register (LFSR). For this to generate pseudo-random numbers, specific numbers of bits must be used as the length of the number. For this test, I used a 7 bit LFSR.
 
@@ -70,18 +71,18 @@ To ensure that the LFSR was functioning as expected (make sure I hadn't screwed 
 
 Unfortunately, 30 samples doesn't allow for significant trends to develop in terms of frequency of occurance of various numbers. What this sample does show is that the LFSR is providing values throughout its full output range and, when I slowed down the clock to 1Hz, confirmed that it is operating exactly as it should.
 
-# Extra Features
+## Extra Features
 
 Though functionally useless, I also added a scrolling message on the seven-segment display when the device turns on. In honor of CU, this message is `go buffs`.
 I made this scroll across the available digits through the use of a 2Hz clock which causes the message to shift left by 8 bits (7 segments + decimal point).
 
-# Demonstration
+## Demonstration
 
 Here is a video of the timer in action.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Mfbvz1SpOVE" frameborder="0" allowfullscreen></iframe>
 
-# Further Development
+## Further Development
 
 This has been a really interesting experience getting to create low level hardware without ever having to physically manipulate hardware.
 I definitely have gained a bit more understanding as to the power of FPGAs despite the fact that I never came close to using even a single percent of this chip's capability.
@@ -90,7 +91,7 @@ While I was working on this project I messed around a little bit with driving a 
 I never succeeded in producing a signal recognizable to my monitor, however I would like to investigate the cause of this failure in the future.
 It could be a good introduction to designing hardware for synchronous communication. 
 
-# Resources
+## Resources
 
 Due to this project being part of a course, I cannot publish the complete source code. If you are interested in seeing the source, please contact me directly.
 

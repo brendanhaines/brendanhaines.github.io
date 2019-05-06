@@ -13,7 +13,7 @@ Here's what the finished product looks like.
 
 <!--description-->
 
-# Design
+## Design
 
 I wasn't sure what exactly I was looking to make so I just made some sketches that were asthetically pleasing to me.
 
@@ -21,7 +21,7 @@ I generally don't like the look of knives that have a shorter blade than handle,
 
 ![Sketch]({{base-url}}/assets/first-knife/sketch-2.jpg)
 
-# The Blade
+## The Blade
 
 Since I didn't go into this with knifemaking experience, I wanted to work with a relatively forgiving steel. From a little research I found that 1075, 1095, and O1 steels are all pretty good for beginners and are oil quenchable. I settled on 1095 because I wanted better edge retention (over 1075) and didn't know much about O1.
 
@@ -35,7 +35,7 @@ To grind the bevels into the sides of the blade, I didn't use a jig but just est
 
 ![Bevels ground into blade]({{base-url}}/assets/first-knife/done-grinding-left.jpg) | ![Bevels ground into blade]({{base-url}}/assets/first-knife/done-grinding-right.jpg)
 
-# Heat Treatment
+## Heat Treatment
 
 This was definitely the most daunting step in the project. Heat treatment is necessary to harden what has been fairly soft steel until this point so that it will be able to hold a sharp edge.
 
@@ -47,7 +47,7 @@ My first attempt at hardening the blade didn't go exactly to plan. I was using 2
 
 The final step was to temper the blade. This softens the steel so it won't crack or shatter as easily. I just put the hardened blade in an ordinary kitchen oven at 400&deg;F for about an hour.
 
-# The Handle
+## The Handle
 
 I settled on cocobolo for the handle. The process of shaping the handle scales is fairly straightforward. I put the two blocks of wood on either side of the blade and sanded them until I was just starting to hit steel. Once the profile is mostly done, I once again connected the scales with dowel pins to keep them aligned and sanded their profiles.
 
@@ -59,7 +59,7 @@ I then glued the wood scales onto the sides of the steel with epoxy. They were h
 
 Once everything was glued, I could have hammered a mushroom head on the ends of the pins but I decided not to. I was concerned about accidently damaging the wood finish and since this knife won't be getting very heavy use I'm not so concerned about it falling apart. I simply sanded off the excess of the pins and let the epoxy work its magic. 
 
-# Finishing
+## Finishing
 
 The steel was simply finished by hand with sand paper on a flat surface. I was initially planning to take the finish up to around 1000-2000 grit but since there were already imperfections like a minor warp of the steel from heat treating as well as not perfectly flat surfaces of the bevel, I decided to stop at 400 grit. I'm still happy with this decision since it saved me a lot of time and I like that it looks more like a brushed finish.
 
@@ -72,11 +72,11 @@ I generally havent worried too much about how sharp my knives are in the past an
 
 ![Mirror edge]({{base-url}}/assets/first-knife/mirror-edge-2.jpg)
 
-# Conclusion
+## Conclusion
 
 I'm really happy with how this turned out. The knife feels good in my hand despite having a small handle. I sharpened the blade well beyond the point of shaving hair so I know it will take an edge well. I have yet to see how well the steel holds its edge.
 
-# Resources
+## Resources
 
 - Jantz Supply for [1095 steel & cocobolo block](http://www.knifemaking.com)
 - Harbor Freight [1x30" belt sander](https://www.harborfreight.com/1-in-x-30-in-belt-sander-60543.html)
