@@ -28,7 +28,7 @@ You're also welcome to take a look at my [resume]({{base-url}}/assets/resume.pdf
 
 ### Contact
 
-The best way to contact me is via email at <brendan.haines@gmail.com> or <brendan.haines@colorado.edu>.
+The best way to contact me is via email at <brendan.haines@colorado.edu>.
 
 You can also see some of my older work at [GitHub](http://github.com/brendanhaines).
 

@@ -11,6 +11,8 @@ Here's what the finished product looks like.
 
 ![Finished Knife]({{base-url}}/assets/first-knife/finished-2.jpg)
 
+<!--description-->
+
 # Design
 
 I wasn't sure what exactly I was looking to make so I just made some sketches that were asthetically pleasing to me.

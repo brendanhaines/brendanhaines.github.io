@@ -6,12 +6,14 @@ categories: Projects
 permalink: /:categories/:title/
 ---
 
-![DE10-Lite FPGA][de10-lite]
-
 # Intro
 The purpose of this project was to gain experience with a field programmable gate array (FPGA) and design of digital logic through the creation of a reaction timer.
 This timer must be able to wait a random length of time before measuring how long a person takes to react to an LED turning on.
 The purpose of this delay is to prevent someone from simply pressing a start and stop button in quick succession without ever having to truly react to an event outside of their control.
+
+<!--description-->
+
+![DE10-Lite FPGA][de10-lite]
 
 # Overall Design
 

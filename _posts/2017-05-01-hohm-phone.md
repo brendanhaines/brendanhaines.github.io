@@ -9,7 +9,9 @@ permalink: /:categories/:title/
 # Intro
 For my freshman projects class in the Fall of 2016, we were prompted with using some aspect of touch tone phones in a new way. Ultimately, my group decided on making a cell phone targeted at the elderly population, some of whom struggle to use miniaturized cell phones or much more complicated smartphones.
 
-**The primary goal of our project was to create a working cell phone with as similar an interface to old landlines as possible to simplify use.**
+The primary goal of our project was to create a working cell phone with as similar an interface to old landlines as possible to simplify use.
+
+<!--description-->
 
 # Design
 The design is based around an Arduino and inexpensive SIM800L GSM module. Schematic, board layout, and Arduino code are available in the [Git repository][github-repo]. As a brief overview, the ATMEGA328P (microcontroller that's on an Arduino Uno/Nano) communicates with the SIM800L by sending AT commands over UART and monitors the keypad for button presses. There is additionally a SIM card on the back of the board which interfaced directly with the SIM800L over SPI. Interpretation of phone numbers is performed on the ATMEGA328P and currently works for calls within the United States but would need significant improvement to be used for international calling.
