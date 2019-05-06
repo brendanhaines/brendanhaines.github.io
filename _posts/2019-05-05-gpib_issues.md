@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GPIB Issues"
-date: 2019-05-05 20:00:00 -0600
+date: 2019-05-05 23:00:00 -0600
 categories: Equipment
 permalink: /:categories/:title/
 ---
@@ -20,3 +20,5 @@ ip = '169.254.58.10'
 gpib_addr = 13
 inst = rm.open_resource(f'TCPIP::{ip}::gpib0,{gpib_addr}::INSTR')
 ```
+
+The IP address `169.254.58.10` is the default IP if no DHCP server is found.
