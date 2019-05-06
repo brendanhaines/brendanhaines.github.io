@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GPIB Issues"
-date: 2019-05-05 23:10:00 -0600
+date: 2019-05-05 20:00:00 -0600
 categories: Equipment
 permalink: /:categories/:title/
 ---
