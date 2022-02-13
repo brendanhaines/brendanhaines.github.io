@@ -20,6 +20,7 @@ with Image.open(orig[0]) as im:
         im = im.crop((left, top, right, bottom))
 
     im.resize([min(im.size[0], 70)] * 2).save(dir_avatar / "avatar.png")
+    im.resize([min(im.size[0], 256)] * 2).save(dir_avatar / "favicon.ico")
 
     for s in [16, 32, 57, 60, 70, 72, 76, 96, 114, 120, 128, 144, 150, 152, 180, 192, 310, 384, 512]:
         im.resize([min(im.size[0], s)] * 2).save(dir_avatar / f"favicon-{s}x{s}.png")
