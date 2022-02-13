@@ -10,7 +10,7 @@ I've been trying to interface with GPIB instruments but struggling a lot with GP
 
 I started out with a Agilent 82357B USB &rarr; GPIB adapter. I was able to get my power meter to respond to a GPIB query *once* but never again. After fighting with `linux-gpib` configuration on and off for a few months, I got fed up and got an Agilent E5810A Ethernet &rarr; GPIB adapter. Despite authentication issues on the university network, I had no problems communicating with my power meter no more than an hour after power everything on.
 
-<!--description-->
+<!--more-->
 
 I'm using [PyVISA](https://pyvisa.readthedocs.io/en/master/) with the `pyvisa-py` backend. I've now begun writing python device drivers to simplify usage of the meter.
 

@@ -18,7 +18,7 @@ Some of the gear I intend to build includes:
 - VNA
 - Power meter
 
-<!--description-->
+<!--more-->
 
 While I fully intend to build all of these, I won't be done for years so I'll still be interspersing this with other, smaller projects.
 

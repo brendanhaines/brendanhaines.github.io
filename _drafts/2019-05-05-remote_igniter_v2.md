@@ -10,7 +10,7 @@ As a project sponsored by CU's rocketry club, COBRA (now [CUSRL](https://www.col
 
 ![Goldfish2][goldfish2_front]
 
-<!--description-->
+<!--more-->
 
 *Note that we are not in any way sponsored by Pepperidge Farm.*
 

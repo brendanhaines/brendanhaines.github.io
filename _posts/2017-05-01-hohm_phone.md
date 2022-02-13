@@ -12,7 +12,7 @@ For my freshman projects class in the Fall of 2016, we were prompted with using 
 
 The primary goal of our project was to create a working cell phone with as similar an interface to old landlines as possible to simplify use.
 
-<!--description-->
+<!--more-->
 
 ## Design
 
