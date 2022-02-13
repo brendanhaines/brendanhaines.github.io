@@ -1,14 +1,14 @@
 <div class="post-nav">
-    <p>
-        {% if page.previous.url %}
-        <span class="post-nav-label">{{ 'Previous' }}</span><br>
-        <a href="{{page.previous.url}}"><i class="fa fa-arrow-left"></i>&nbsp;{{page.previous.title}}</a>
-        {% endif %}
-    </p>
-    <p>
-        {% if page.next.url %}
-        <span class="post-nav-label">{{ 'Next' }}</span><br>
-        <a href="{{page.next.url}}">{{page.next.title}}&nbsp;<i class="fa fa-arrow-right"></i></a>
-        {% endif %}
-    </p>
+  <p>
+    {% if page.previous.url %}
+    <span class="post-nav-label">{{ 'Previous' }}</span><br>
+    <a href="{{page.previous.url}}"><i class="fa fa-arrow-left"></i>&nbsp;{{page.previous.title}}</a>
+    {% endif %}
+  </p>
+  <p>
+    {% if page.next.url %}
+    <span class="post-nav-label">{{ 'Next' }}</span><br>
+    <a href="{{page.next.url}}">{{page.next.title}}&nbsp;<i class="fa fa-arrow-right"></i></a>
+    {% endif %}
+  </p>
 </div>
