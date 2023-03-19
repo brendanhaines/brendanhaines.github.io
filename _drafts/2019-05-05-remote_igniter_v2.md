@@ -1,46 +1,95 @@
 ---
 layout: post
-title: "Wireless Rocket Igniter: Goldfish2"
-date: 2019-05-05 12:00:00 -0600
+title: "Goldfish: Wireless Rocket Igniter"
+date: 2023-03-18 12:00:00 -0600
 categories: Projects
 permalink: /:categories/:title/
 ---
 
-As a project sponsored by CU's rocketry club, COBRA (now [CUSRL](https://www.colorado.edu/studentgroups/cobra/)), I've been developing a wireless ignition system for high power rockets. When we're launching to over ten thousand feet, rockets get large enough that we need thousands of feet between ourselves and the launchpad. Rather than carry a spool of wire large enough to span that safety distance, we decided to look into wireless ignition systems.
+*I haven't touched this project for about 4 years before writing but there's no time like the present to document past projects. Unfortunately I didn't take very many photos and no longer have access to the hardware so please excuse the lack of quality pictures.*
 
-![Goldfish2][goldfish2_front]
+As a project sponsored by CU's rocketry club, COBRA (now [CUSRL](https://www.colorado.edu/studentgroups/cobra/)), I designed and built a wireless ignition system for high power rockets. When launching to over ten thousand feet, rockets get large enough that we need thousands of feet of standoff distance for safety. Rather than carry a large spool of wire, we decided to look into wireless ignition systems.
+
+![Goldfish3]({{base-url}}/assets/goldfish3/goldfish3_assembled.jpg)
 
 <!--more-->
 
-*Note that we are not in any way sponsored by Pepperidge Farm.*
+***Due to the nature of rocketry I feel the need to be explicit about liability. This is not a finished product and I don't guarantee reliability or safety if you copy it. You take full responsibility for everything you make. Please don't blow yourself up.***
 
-## Design Requirements
+## You Know What Would Be Cool...
+The concept of a wireless igniter for model rockets was born in my college dorm room.
 
-- The system must be safe and never fire unless commanded.
-- It must be reliable and always fire when commanded, or if unable to fire must make the operator aware of such failure.
-- It must be simple enough that someone without experience can safely operate it.
-- It should be legal to operate with no more than a technician class amateur radio license.
+It all boiled down to a few basic objectives:
+- Never launch unless commanded
+- Always launch when commanded or inform the user of errors
+- Simple enough for safe operation by inexperienced users
+- Legal to operate with a technician class amateur radio license
 
-***Be aware that this is not a finished product. Don't blindly copy this project. You take full responsibility for everything you make. Please don't blow yourself up.***
+Wanting to have something to show off as soon as possible, I built quick and dirty proof of concept with a breadboard and parts I had on hand.
 
-Mainly for the sake of licensing, I've chosen to use the 130MHz/433MHz Ham radio bands for all communications. This allows for transmissions of several Watts for decent range and ensuring a multitude of handheld transceivers to use for one end of the link. I've chosen to use DTMF tones for authentication and launch codes since they can be easily supported both by handheld transceivers as well as dedicated decoding hardware.
+That consisted of a STM32 development board, an off the shelf UHF FM radio module, and a DTMF decoder IC with the antenna from a handheld radio and an external car battery.
 
-**IMAGE OF SCHEMATIC??**
+If you don't know about DTMF, they're the tones you hear when you press numbers on a telephone. Each number consists of two tones, one indicating the column and one the row on the number pad.
 
-<!-- The most important requirement is to make something safe which minimizes the possibility for accidental firing as well as misfires. While it is obvious why an early or accidental ignition could have catastrophic consequences, it may be less obvious why a misfire, or dud, could be nearly as bad. In the situation where a rocket is expected to fire but does not ignite, the dangerous situation arises where a person must approach the rocket while it is in an unknown state and has the possibility of catastrophic failure.
+![Goldfish1 Internals]({{base-url}}/assets/goldfish3/goldfish1_breadboard.jpg)
+Yes, that is aluminum tape holding the radio module in place so it wouldn't fall out of the breadboard. No I didn't have anything better at the time.
 
-One of most foreign requirements for me on this project is the need to make this system entirely stupid-proof. I usually am only anticipating myself using the tools I make but in this case I have to plan ahead for others. It is quite likely that people who know nothing about the inner functioning of this system will have to operate it and be safe in doing so. -->
+It wasn't hard to get this working very rudimentarily, though there were some serious flaws.
 
-## Testing
+For one thing, I intentionally ignored power on/off tranients because I just wanted a proof of concept for myself.
+Especially combined with the external battery and janky aligator clips, I had concerns about any sort of power event with an igniter connected causing accidental launches. I could keep myself safe by only connecting the igniter once power was applied and configuration loaded but it certainly wasn't stupid-proof.
 
-I've probably tested the radio portion of this ingiter close to a hundred times over the course of firmware development. The high current portion has had fewer tests, however I've proven that it can repeatably supply **a few - NUMBER** amps (my power resistor can't handle much more) without disrupting system functionality. I've additionally fired around a dozen live igniters to ensure that pyro manufacturing variations don't negatively impact functionality.
+The other primary flaw was the user interface.
+To launch the rocket, all you had to do was type a launch code into a handheld radio while transmitting.
+A series of tones would be sent back from the igniter to indicate the message was received and report any errors.
+This is all fine but the bad part was configuration.
+I made the launch code, frequency, and callsign configurable at power-on using a laptop over USB.
+In retrospect it might have been better to hard-code these values and avoid the need to have a laptop in the middle of a muddy field when you're just trying to light some propellent on fire.
+<!-- ![Baofeng UV-5R]({{base-url}}/assets/goldfish3/uv-5r.jpg) -->
 
-Maybe a video...
+Also, I didn't have any large power resistors and didn't want to make anything more complex so this design had absolutely no current limiting on the output.
+I only blew one or two FETs by driving into a hard short. Thankfully the resistance of an e-match is high enough that it could survive normal use.
 
-## Future Plans
+## The Box That Smiles Back
+No, I'm not sponsored by Pepperidge Farm.
 
-Though Goldfish2 is sufficient for some launch operations, it is not as robust and foolproof as I would like. I will be making a third version of this project with additional failsafes and physically tougher construction.
+I needed an enclosure for this pile of wires but where could I possibly find something at 10:00 PM in a college dorm?
+The only rational answer was my to take the empty Goldfish box from my roommate's desk.
+![Goldfish1 Cardboard Box]({{base-url}}/assets/goldfish3/goldfish1_cardboard.jpg)
+Five minutes and a pair of scissors certainly turned a piece of trash into the flimiest enclosure I've ever made.
 
-One of my biggest complaints with the current system is that the operator must carry around a laptop computer just to configure a few values before launch. This shouldn't be necessary and can be easily remedied with a keypad and alpha-numeric display.
+## Goldfish 2
+Given the flammability of cardboard we switched to a laser-cut acryllic box pretty quickly but the name stuck (and so did the front of the box).
+![Goldfish2 Enclosure]({{base-url}}/assets/goldfish3/goldfish2_complete.jpg)
 
-[goldfish2_front]: {{base-url}}/assets/goldfish2/IMG_7899_CR2_embedded.jpg
+I was also concerned about someone dropping or shaking the box and breaking the electronics so copied it over to a perf-board once I had settled on a circuit.
+![Goldfish2 Internals]({{base-url}}/assets/goldfish3/goldfish2_guts.jpg)
+
+None of this fixed the underlying issues mentioned above (nor was intended to) so I knew I would be making something better.
+
+## Goldfish 3
+Given that I ultimately wanted to make something I would be proud of and could use conveniently, it was time for a major redesign.
+
+To eliminate the issues with power I had three strategies:
+1. Internal battery to avoid momentary disconnects
+1. Mechanically isolate output during any power events
+1. Soft power switch so MCU can ensure things are safe during power events
+
+The first is self explanatory. Unfortunately I messed up my charging circuit (or didn't finish debugging it, I don't remember anymore) so had to remove the battery for charging. This wasn't a big deal since everything was held together with machine screws but still obnoxious.
+
+The second and third are more interesting. I added a key switch for arming which also physically disconnects the output. This, along with the soft power switch, gates power-on so turning on the power switch will never do anything unless the arming switch is disarmed (safe).
+
+![Goldfish3 Internals]({{base-url}}/assets/goldfish3/goldfish3_reflow.jpg)
+
+As far as usability goes, I completely eliminated the terrible USB configuration and replaced it with a number pad and large LED segment display.
+
+![Goldfish3 Powered]({{base-url}}/assets/goldfish3/goldfish3_powered.jpg)
+
+There are some other features on board including a Raspberry Pi for voice synthesis and ethernet to interface with any other sensors at the launchpad.
+Neither of these were fully implemented since I moved on to other projects before getting around to them.
+
+I wish I could show a video of Goldfish 3 in use but I appear to have lost the few videos I once had.
+
+
+## Resources
+- [GitLab](https://gitlab.com/brendanhaines/goldfish) (This is quite a mess but I'm not going to clean it up at this point)
