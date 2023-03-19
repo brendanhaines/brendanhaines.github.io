@@ -22,5 +22,3 @@ ip = '169.254.58.10'
 gpib_addr = 13
 inst = rm.open_resource(f'TCPIP::{ip}::gpib0,{gpib_addr}::INSTR')
 ```
-
-The IP address `169.254.58.10` is the default IP if no DHCP server is found.

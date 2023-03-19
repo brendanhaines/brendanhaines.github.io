@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "Wireless Kiln Controller: Part 1"
-date: 2017-01-30 19:00:00 -0700
+title: "Kiln Controller"
+date: 2023-03-18 12:00:00 -0600
 categories: Projects
 permalink: /:categories/:title/
 ---
+
+*I haven't touched this project for about 6 years before writing but there's no time like the present to document past projects.*
 
 ## Disclaimer
 
