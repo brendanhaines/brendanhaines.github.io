@@ -64,11 +64,7 @@
           {%- endif -%}
 
           <div class="copyright">
-            {% if site.copyright %}
-            {{ site.copyright | markdownify }}
-            {% else %}
             <p>&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.name }}</p>
-            {% endif %}
           </div>    
         </footer>
       </div>

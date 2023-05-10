@@ -77,9 +77,6 @@ footer_links:
   #   url: https://www.etsy.com/shop/brendanhaines
   #   icon: fa fa-etsy
 
-# Enter your copyright text if you wish to override the default one.
-#copyright: "This site is made with <3 by *me, myself, and I*."
-
 # Time zone
 timezone: US/Mountain
 
