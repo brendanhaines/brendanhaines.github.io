@@ -70,6 +70,10 @@ timezone: US/Mountain
 # Excerpt separator
 excerpt_separator: <!--more-->
 
+# RSS feed configuration
+feed:
+  path: /feed.xml
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #

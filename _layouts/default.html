@@ -59,6 +59,7 @@
             {%- endif -%}
             <a class="social-icon" href="{{ url }}"><i class="{{ footer_link.icon | default: 'fa fa-link' }} fa-2x" title="{{ footer_link.title }}"></i></a>
             {%- endfor -%}
+            <a class="social-icon" href="{{site.feed.path | default: '/feed.xml' }}"><i class="fa fa-rss fa-2x" title="RSS Feed"></i></a>
           </div>
           {%- endif -%}
 
