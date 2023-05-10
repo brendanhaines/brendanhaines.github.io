@@ -4,6 +4,8 @@ title: About
 permalink: /about
 ---
 
+<img src="{{base-url}}/assets/image/portrait.jpeg" alt="Hey it's a face!" width="50%" height="600">
+
 ### Hi, I'm Brendan
 
 I guess you could say I want to be a magician.
