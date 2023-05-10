@@ -1,4 +1,5 @@
 # [Forever Jekyll - A simple, elegant & full featured Jekyll theme](https://forever-jekyll.github.io)
+
 `Forever Jekyll` is a theme-template-boilerplate for `Jekyll`. Primary goal of `Forever Jekyll` is to make the task of building a personal website with `Jekyll` so easy that even a person with non-computing background should be able to do it with ease.  
 
 ## Introduction
