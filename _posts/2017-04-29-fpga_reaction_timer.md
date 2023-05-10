@@ -80,7 +80,9 @@ I made this scroll across the available digits through the use of a 2Hz clock wh
 
 Here is a video of the timer in action.
 
+<div class="plyr__video-embed" id="player">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Mfbvz1SpOVE" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Further Development
 
