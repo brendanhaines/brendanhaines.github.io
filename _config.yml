@@ -57,6 +57,22 @@ footer_links:
     url: https://www.linkedin.com/in/brendan-haines/
     icon: fa fa-linkedin
 
+  # - title: Mastodon
+  #   url: https://shouldigetamastodon?
+  #   icon: fa fa-mastodon
+
+  # - title: BuyMeACoffee
+  #   url: https://bmc.link/brendanhaines
+  #   icon: fa fa-buymeacoffee
+
+  # - title: PayPal
+  #   url: https://paypal.me/BrendanHaines
+  #   icon: fa fa-paypal
+
+  # - title: Venmo
+  #   url: https://venmo.com/u/brendanhaines
+  #   icon: fa fa-venmo
+
   # - title: Etsy
   #   url: https://www.etsy.com/shop/brendanhaines
   #   icon: fa fa-etsy
