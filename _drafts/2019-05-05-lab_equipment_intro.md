@@ -3,7 +3,6 @@ layout: post
 title: "Lab Equipment Project Intro"
 date: 2019-05-05 22:00:00 -0600
 categories: Projects Equipment
-permalink: /:categories/:title/
 ---
 
 The purpose of this post is to outline scope and architecture of an extraordinarily large project I'm strarting. I've begun the process of building myself an electronics lab, and when I say building I mean designing from the ground up.

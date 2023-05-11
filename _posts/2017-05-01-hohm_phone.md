@@ -3,7 +3,6 @@ layout: post
 title: "Hohm Phone: Cell Phone for the Elderly"
 date: 2017-05-01 00:00:00 -0600
 categories: Projects
-permalink: /:categories/:title/
 ---
 
 <!-- ## Intro -->

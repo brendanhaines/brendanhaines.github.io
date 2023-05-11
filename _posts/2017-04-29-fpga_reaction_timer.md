@@ -3,7 +3,6 @@ layout: post
 title: "FPGA Reaction Timer"
 date: 2017-04-30 14:00:00 -0600
 categories: Projects
-permalink: /:categories/:title/
 ---
 
 <!-- ## Intro -->
