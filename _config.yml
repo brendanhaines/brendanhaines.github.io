@@ -45,6 +45,10 @@ footer_links:
     url: mailto:brendan.haines@gmail.com
     icon: fa fa-envelope
 
+  - title: Gitea
+    url: https://git.brendanhaines.com/brendanhaines
+    icon: fa fa-gitea
+
   - title: GitLab
     url: https://gitlab.com/brendanhaines
     icon: fa fa-gitlab

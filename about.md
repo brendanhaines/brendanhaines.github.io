@@ -4,7 +4,7 @@ title: About
 permalink: /about
 ---
 
-<img src="{{base-url}}/assets/image/portrait.jpeg" alt="Hey it's a face!" width="50%" height="600">
+<img src="https://www.gravatar.com/avatar/5df30321be6e91ce508144c7c49812e712edecdf30a92d05cda9226fc4ca0303?d=https%3A%2F%2Fbrendanhaines.com%2Fassets%2Fimage%2Fportrait.jpeg&s=600" alt="Hey it's a face!" width="50%" height="600">
 
 ### Hi, I'm Brendan
 
