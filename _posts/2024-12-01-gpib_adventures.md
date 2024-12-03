@@ -5,7 +5,7 @@ date: 2024-12-01 16:00:00 -0600
 categories: Testing
 ---
 
-I needed to automate some old GPIB instruments but ran into issues with GPIB adapters. This post mostly serves to document the modifications I made and as a reference for the python command to connect.
+I needed to automate some old GPIB instruments but ran into issues with GPIB adapters. This post mostly serves to document the modifications I made and as a reference for how to connect.
 
 <!--more-->
 
