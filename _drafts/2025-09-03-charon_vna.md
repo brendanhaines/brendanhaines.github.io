@@ -23,6 +23,12 @@ There is always a time and place for turning knobs by hand, but I've adopted a v
 For this reason I consider a scriptable interface a necessity for pretty much any test equipment.
 
 Most of the low-cost VNAs available today are only 1 or 1.5 ports (S11 and S21 but not S22 or S12).
+Sure, you can fully characterize a system with 1.5 ports and a lot of manual re-cabling, but that pretty directly opposes my philosophy on automation.
+At a bare minimum I demand that a VNA be capable of full 2-port measurements but prefer more ports.
+
+Another common limitation of RF test equipment is that a lot of tools don't work much higher than the 2.4GHz ISM band.
+Ideally I want everything to work in x-band, but I'll take ~6GHz at a minimum.
+That happens to be the maximum frequency supported by the SDR I already own (ADI Pluto) so I'll just use that.
 
 ## The Competition
 There are several low-cost VNAs available today:
@@ -53,6 +59,15 @@ Short | Open | Load | Thru
 S | O | L | T
 
 ## Software
+
+## Name
+
+> The hardest part of any project is coming up with a name  
+
+I've heard this sentiment too many times to give any real attribution but I can say I've spent an unreasonably long time coming up with names which has been pretty fun.
+
+Since this VNA is based on the Pluto SDR, I've named it after [one of Pluto's moons](https://en.wikipedia.org/wiki/Charon_(moon)), which in turn is named after [Charon](https://en.wikipedia.org/wiki/Charon), the ferryman of the river Styx in Greek mythology.
+But the mythological connections don't end there. The extra RF switches for N-port measurements are codenamed [Cerberus](https://en.wikipedia.org/wiki/Cerberus) after the multi-headed dog guarding the underworld.
 
 
 ## Resources
