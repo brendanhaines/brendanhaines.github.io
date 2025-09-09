@@ -96,6 +96,7 @@
                     ]});">
     </script>
 
+    {% if jekyll.environment == "production" %}
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTFQ7QX6XP"></script>
     <script>
@@ -108,6 +109,7 @@
 
     <script data-goatcounter="https://brendanhaines.goatcounter.com/count"
     async src="//gc.zgo.at/count.js"></script>
+    {% endif %}
 
   </body>
 </html>
